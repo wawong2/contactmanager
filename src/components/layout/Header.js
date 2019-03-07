@@ -6,7 +6,7 @@ const Header = props => {
     const {branding} = props;
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-danger mb-3">
-            <a href="/" className="navbar-brand ml-5">{branding}</a>
+            <Link to="/" className="navbar-brand ml-5">{branding}</Link>
             <div className="container-fluid">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
